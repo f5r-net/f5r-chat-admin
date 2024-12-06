@@ -18,25 +18,8 @@
     </div>
   </div>
 
-  <!-- صفحة اختيار الدولة -->
-  <div id="country-page" style="display: none;">
-    <h2>Select a Country</h2>
-    <div id="country-list" class="country-list">
-      <!-- سيتم تحميل قائمة الدول هنا -->
-    </div>
-  </div>
-
-  <!-- صفحة اختيار الغرفة -->
-  <div id="room-page" style="display: none;">
-    <h2>Select a Room in <span id="selected-country"></span></h2>
-    <div id="room-list" class="room-list">
-      <!-- سيتم تحميل الغرف هنا -->
-    </div>
-    <button onclick="goBackToCountries()" class="back-button">Back to Countries</button>
-  </div>
-
   <!-- صفحة الدردشة -->
-  <div id="chat-container" style="display: none;">
+  <div id="chat-container">
     <div id="messages"></div>
     <div class="input-container">
       <input type="file" id="image-input" class="file-input" accept="image/*" onchange="sendImage(event)">
